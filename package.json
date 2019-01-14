@@ -5,6 +5,13 @@
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
+  "keywords": [
+    "brain",
+    "games",
+    "brain-games",
+    "hexlet",
+    "console games"
+  ],
   "files": [
     "dist"
   ],
