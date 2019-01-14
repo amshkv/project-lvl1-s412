@@ -1,0 +1,17 @@
+{
+  "name": "brain-games-project-14.01.19",
+  "version": "0.0.1",
+  "description": "hexlet student project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey mshkv Moshkov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}
