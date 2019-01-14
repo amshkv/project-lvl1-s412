@@ -1,6 +1,6 @@
 {
   "name": "brain-games-from-a.moshkov",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "hexlet student project",
   "main": "index.js",
   "bin": {
@@ -16,11 +16,17 @@
   },
   "author": "Andrey mshkv Moshkov",
   "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
-    "readline-sync": "^1.4.9"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
