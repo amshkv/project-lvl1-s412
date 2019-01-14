@@ -2,7 +2,6 @@
   "name": "brain-games-from-a.moshkov",
   "version": "0.1.2",
   "description": "hexlet student project",
-  "main": "index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
