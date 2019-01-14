@@ -14,11 +14,11 @@ const game = () => {
 
   for (let i = 0; i < numberOfCorrectAnswer; i += 1) {
     const randomNumber = getRandomNumber();
-    const correctAnsver = isEven(randomNumber);
+    const correctAnswer = isEven(randomNumber);
     console.log(`Question: ${randomNumber}`);
     const answer = readlineSync.question('Your answer: ');
-    if (answer !== correctAnsver) {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnsver}'.`);
+    if (answer !== correctAnswer) {
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${username}!!`);
       return;
     }
