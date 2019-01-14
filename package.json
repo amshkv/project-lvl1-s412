@@ -1,10 +1,11 @@
 {
   "name": "brain-games-from-a.moshkov",
-  "version": "0.2.3",
+  "version": "0.3.3",
   "description": "hexlet student project",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "keywords": [
     "brain",
@@ -24,6 +25,7 @@
   "author": "Andrey mshkv Moshkov",
   "license": "ISC",
   "dependencies": {
+    "hexlet-pairs": "^1.0.8",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {
