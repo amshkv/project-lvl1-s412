@@ -1,9 +1,10 @@
 {
   "name": "brain-games-from-a.moshkov",
-  "version": "0.1.2",
+  "version": "0.2.3",
   "description": "hexlet student project",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "keywords": [
     "brain",
