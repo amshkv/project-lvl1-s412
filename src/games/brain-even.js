@@ -3,11 +3,11 @@ import getRandomNumber from '../utilites';
 import { cons } from 'hexlet-pairs';
 
 const description = 'Answer "yes" if number even otherwise answer "no".';
-const isEven = number => (number % 2 === 0 ? 'yes' : 'no');
+const isEven = number => number % 2 === 0;
 
 const taskGame = () => {
   const question = getRandomNumber();
-  const correctAnswer = isEven(question);
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
   return cons(question, correctAnswer);
 };
 
