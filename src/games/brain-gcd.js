@@ -5,10 +5,7 @@ import getRandomNumber from '../utilites';
 const description = 'Find the greatest common divisor of given numbers.';
 
 const getGCD = (firstOperand, secondOperand) => {
-  if (firstOperand === secondOperand) {
-    return firstOperand;
-  }
-  const iterCount = firstOperand > secondOperand ? secondOperand : firstOperand;
+  const iterCount = Math.min(firstOperand, secondOperand);
   let result = 1;
   for (let i = 2; i <= iterCount; i += 1) {
     if (firstOperand % i === 0 && secondOperand % i === 0) {
