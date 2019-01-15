@@ -14,3 +14,7 @@
 ## Игра "Brain gcd", установка и пример игры
 
 [![asciicast](https://asciinema.org/a/19g5zmGxrTkjDWCCY79TAXMLw.svg)](https://asciinema.org/a/19g5zmGxrTkjDWCCY79TAXMLw)
+
+## Игра "Brain progression", установка и пример игры
+
+[![asciicast](https://asciinema.org/a/FCxFlp0aP5OYB3p3yMFuIXYAb.svg)](https://asciinema.org/a/FCxFlp0aP5OYB3p3yMFuIXYAb)
