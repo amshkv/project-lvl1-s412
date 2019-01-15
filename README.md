@@ -18,3 +18,7 @@
 ## Игра "Brain progression", установка и пример игры
 
 [![asciicast](https://asciinema.org/a/FCxFlp0aP5OYB3p3yMFuIXYAb.svg)](https://asciinema.org/a/FCxFlp0aP5OYB3p3yMFuIXYAb)
+
+## Игра "Brain prime", установка и пример игры
+
+[![asciicast](https://asciinema.org/a/Tqm2STU9ONphUGmUqPiXCJUD6.svg)](https://asciinema.org/a/Tqm2STU9ONphUGmUqPiXCJUD6)
