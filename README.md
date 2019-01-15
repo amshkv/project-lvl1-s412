@@ -10,3 +10,7 @@
 ## Игра "Brain calc", установка и пример игры
 
 [![asciicast](https://asciinema.org/a/Am0V01RykjHVaK74a8XFMtJgA.svg)](https://asciinema.org/a/Am0V01RykjHVaK74a8XFMtJgA)
+
+## Игра "Brain gcd", установка и пример игры
+
+[![asciicast](https://asciinema.org/a/19g5zmGxrTkjDWCCY79TAXMLw.svg)](https://asciinema.org/a/19g5zmGxrTkjDWCCY79TAXMLw)
