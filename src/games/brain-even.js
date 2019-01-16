@@ -1,6 +1,6 @@
-import startGame from '..';
-import getRandomNumber from '../utilites';
 import { cons } from 'hexlet-pairs';
+import startGame from '../gameEngine';
+import getRandomNumber from '../utilites';
 
 const description = 'Answer "yes" if number even otherwise answer "no".';
 const isEven = number => number % 2 === 0;
@@ -11,4 +11,4 @@ const taskGame = () => {
   return cons(question, correctAnswer);
 };
 
-export default () => startGame(description, taskGame);
+export default user => startGame(description, taskGame, user);

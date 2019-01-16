@@ -1,5 +1,5 @@
-import startGame from '..';
 import { cons } from 'hexlet-pairs';
+import startGame from '../gameEngine';
 import getRandomNumber from '../utilites';
 
 const description = 'What number is missing in the progression?';
@@ -31,4 +31,4 @@ const taskGame = () => {
 };
 
 taskGame();
-export default () => startGame(description, taskGame);
+export default username => startGame(description, taskGame, username);
