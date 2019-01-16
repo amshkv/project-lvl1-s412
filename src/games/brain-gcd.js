@@ -19,7 +19,7 @@ const taskGame = () => {
   const firstOperand = getRandomNumber();
   const secondOperand = getRandomNumber();
   const question = `${firstOperand} ${secondOperand}`;
-  const answer = getGCD(firstOperand, secondOperand);
+  const answer = String(getGCD(firstOperand, secondOperand));
 
   return cons(question, answer);
 };

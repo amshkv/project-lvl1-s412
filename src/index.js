@@ -11,7 +11,7 @@ const startGame = (description, gameTask) => {
   for (let i = 0; i < numberOfCorrectAnswer; i += 1) {
     const task = gameTask();
     const question = car(task);
-    const correctAnswer = String(cdr(task));
+    const correctAnswer = cdr(task);
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer !== correctAnswer) {

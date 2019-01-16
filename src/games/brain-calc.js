@@ -10,21 +10,21 @@ const taskGame = () => {
   const numberOfRandomOperation = getRandomNumber(0, 2);
 
   let question;
-  let correctAnswer;
+  let answer;
   switch (numberOfRandomOperation) {
     case 1:
       question = `${firstOperand} + ${secondOperand}`;
-      correctAnswer = firstOperand + secondOperand;
+      answer = firstOperand + secondOperand;
       break;
     case 2:
       question = `${firstOperand} - ${secondOperand}`;
-      correctAnswer = firstOperand - secondOperand;
+      answer = firstOperand - secondOperand;
       break;
     default:
       question = `${firstOperand} * ${secondOperand}`;
-      correctAnswer = firstOperand * secondOperand;
+      answer = firstOperand * secondOperand;
   }
-  return cons(question, correctAnswer);
+  return cons(question, String(answer));
 };
 
 export default () => startGame(description, taskGame);
