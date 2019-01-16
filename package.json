@@ -1,6 +1,6 @@
 {
   "name": "brain-games-from-a.moshkov",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "description": "hexlet student project",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
@@ -30,7 +30,6 @@
   "license": "ISC",
   "dependencies": {
     "hexlet-pairs": "^1.0.8",
-    "hexlet-pairs-data": "^1.0.8",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {

@@ -3,22 +3,65 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/3e1e0beb23d23f9bcfb0/maintainability)](https://codeclimate.com/github/amshkv/project-lvl1-s412/maintainability)
 [![Build Status](https://travis-ci.org/amshkv/project-lvl1-s412.svg?branch=master)](https://travis-ci.org/amshkv/project-lvl1-s412)
 
-## Игра "Brain even"
+Учебный проект "Brain games" - это набор миниигр, запускаемых из консоли. Для победы в игре, необходимо ответить правильно на 3 вопроса. Игры можно выбирать как конкретные, так и случайную из списка.
 
-[![asciicast](https://asciinema.org/a/9815vQTwk2gFyrjRckr9MRd7e.svg)](https://asciinema.org/a/9815vQTwk2gFyrjRckr9MRd7e)
+## Установка
 
-## Игра "Brain calc", установка и пример игры
+```
+npm install -g brain-games-from-a.moshkov
+```
 
-[![asciicast](https://asciinema.org/a/Am0V01RykjHVaK74a8XFMtJgA.svg)](https://asciinema.org/a/Am0V01RykjHVaK74a8XFMtJgA)
+## Запуск
 
-## Игра "Brain gcd", установка и пример игры
+Запуск можно осуществлять как cписком игр с помощью команды `brain-games`, так и конкретную игру из списка:
 
-[![asciicast](https://asciinema.org/a/19g5zmGxrTkjDWCCY79TAXMLw.svg)](https://asciinema.org/a/19g5zmGxrTkjDWCCY79TAXMLw)
+- brain-balance
+- brain-calc
+- brain-even
+- brain-gcd
+- brain-prime
+- brain-progression
 
-## Игра "Brain progression", установка и пример игры
+## Установка проекта и пример игры
 
-[![asciicast](https://asciinema.org/a/FCxFlp0aP5OYB3p3yMFuIXYAb.svg)](https://asciinema.org/a/FCxFlp0aP5OYB3p3yMFuIXYAb)
+[![asciicast](https://asciinema.org/a/0TvSmnrPPvt4y2I7qbsZ8qqQF.svg)](https://asciinema.org/a/0TvSmnrPPvt4y2I7qbsZ8qqQF)
 
-## Игра "Brain prime", установка и пример игры
+### Игра brain-balance
 
-[![asciicast](https://asciinema.org/a/Tqm2STU9ONphUGmUqPiXCJUD6.svg)](https://asciinema.org/a/Tqm2STU9ONphUGmUqPiXCJUD6)
+Необходимо сбалансировать число.
+
+Сбалансированное число – это число, в котором наименьшая цифра отличается от наибольшей не более чем на единицу.
+
+Примеры сбалансированных чисел: 111, 233, 55, 001, 9999, 0001.
+
+А, например, число 123 не является сбалансированным, потому что наименьшая цифра в нем равна 1, а наибольшая - 3, а разница между ними - 2. При балансировке числа "большие" цифры отдают излишки "меньшим" так, чтобы в итоге число стало сбалансированным. В случае с числом 123 цифра 3 должна отдать единицу цифре 1, и в итоге получим число 222.
+
+Порядок цифр в сбалансированном числе – по возрастанию. Например, вместо 322 и 232 нужно указывать 223.
+
+### Игра brain-calc
+
+"Калькулятор". Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
+
+### Игра brain-even
+
+"Проверка на четность". Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
+
+### Игра brain-gdc
+
+"Наибольший общий делитель (НОД)". Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+### Игра brain-prime
+
+"Простое ли число?". Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — если наоборот.
+
+### Игра brain-progression
+
+"Арифметическая прогрессия". Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
+
+## Для разработки
+
+```
+git clone git@github.com:amshkv/project-lvl1-s412.git
+
+make install
+```
