@@ -31,4 +31,4 @@ const taskGame = () => {
 };
 
 taskGame();
-export default username => startGame(description, taskGame, username);
+export default (username) => startGame(description, taskGame, username);

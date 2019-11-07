@@ -22,4 +22,4 @@ const taskGame = () => {
   return cons(question, correctAnswer);
 };
 
-export default username => startGame(description, taskGame, username);
+export default (username) => startGame(description, taskGame, username);

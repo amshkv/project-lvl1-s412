@@ -7,7 +7,7 @@ const description = 'Balance the given number.';
 const getBallanceNumber = (number) => {
   const arraySortedFromNumber = String(number)
     .split('')
-    .map(n => Number(n))
+    .map((n) => Number(n))
     .sort();
 
   const iter = (arr) => {
@@ -36,4 +36,4 @@ const taskGame = () => {
   return cons(question, answer);
 };
 
-export default username => startGame(description, taskGame, username);
+export default (username) => startGame(description, taskGame, username);
