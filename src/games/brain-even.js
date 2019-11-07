@@ -11,4 +11,4 @@ const taskGame = () => {
   return cons(question, correctAnswer);
 };
 
-export default user => startGame(description, taskGame, user);
+export default username => startGame(description, taskGame, username);
