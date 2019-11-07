@@ -39,13 +39,13 @@ const gamePlay = (gameNumber, username) => {
 
 const gameSelection = (username) => {
   console.log('Choose number a specific game or random:');
-  console.log('1 - brain-balance,');
-  console.log('2 - brain-calc,');
-  console.log('3 - brain-even,');
-  console.log('4 - brain-gcd,');
-  console.log('5 - brain-prime,');
-  console.log('6 - brain-progression,');
-  console.log('7 - random game,');
+  console.log(' 1 - brain-balance,');
+  console.log(' 2 - brain-calc,');
+  console.log(' 3 - brain-even,');
+  console.log(' 4 - brain-gcd,');
+  console.log(' 5 - brain-prime,');
+  console.log(' 6 - brain-progression,');
+  console.log(' 7 - random game,');
   console.log('42 - exit.');
 
   const choice = Number(readlineSync.question('Your choice: '));
